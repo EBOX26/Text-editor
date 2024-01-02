@@ -1,7 +1,0 @@
-# render.yaml
-
-services:
-  - name: web
-    env: node
-    buildCommand: cd develop && npm install && npm run build
-    startCommand: cd develop && npm start
